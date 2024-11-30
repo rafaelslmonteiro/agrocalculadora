@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0f4f4a;
+  --color-primary-light: #4a7c3a;
+  --color-secondary: #8bc34a;
+  --color-accent: #795548;
+  --color-background: #f1f8e9;
+  --color-text: #33691e;
+  --color-card: #ffffff;
+  --color-result-bg: #e8f5e9;
+  --color-result-border: #81c784;
+  --color-result-text: #1b5e20;
+  --color-result-value-bg: #c8e6c9;
+  --color-brown-light: #d7ccc8;
+  --color-brown-dark: #5d4037;
+}
+
+body {
+  background-color: var(--color-background);
+  background-image: url('/leaf-pattern.png');
+  background-repeat: repeat;
+  background-size: 200px;
+  color: var(--color-text);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.bg-card {
+  background-color: var(--color-card);
+}
+
+.bg-result {
+  background-color: var(--color-result-bg);
+}
+
+.border-result {
+  border-color: var(--color-result-border);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.border-primary {
+  border-color: var(--color-primary);
+}
+
+.hover\:bg-primary-light:hover {
+  background-color: var(--color-primary-light);
+}
+
+.content-wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+}
+
+.bg-brown-light {
+  background-color: var(--color-brown-light);
+}
+
+.bg-brown-dark {
+  background-color: var(--color-brown-dark);
+}
+
+.text-brown-dark {
+  color: var(--color-brown-dark);
+}
+
